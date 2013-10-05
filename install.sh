@@ -12,6 +12,8 @@ wget -q -O /usr/local/ddos/ddos.conf https://github.com/ataliba/ddos-deflate/raw
 echo -n '.'
 wget -q -O /usr/local/ddos/LICENSE https://github.com/ataliba/ddos-deflate/raw/master/LICENSE --no-check-certificate
 echo -n '.'
+wget -q -O /usr/local/ddos/AUTHORS https://github.com/ataliba/ddos-deflate/raw/master/AUTHORS --no-check-certificate
+echo -n '.'
 wget -q -O /usr/local/ddos/ignore.ip.list https://github.com/ataliba/ddos-deflate/raw/master/ignore.ip.list --no-check-certificate
 echo -n '.'
 wget -q -O /usr/local/ddos/ddos.sh https://github.com/ataliba/ddos-deflate/raw/master/ddos.sh --no-check-certificate
