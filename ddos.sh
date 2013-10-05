@@ -52,7 +52,7 @@ unbanip()
 	# new option to use the shorewall 
 	elif [ $APF_BAN -eq 2 ]; then
 		while read line; do 
-			echo "$SHOREWALL allow $line" >> $UNBAN_SCRIPT 
+			echo "$SHOR allow $line" >> $UNBAN_SCRIPT 
 			echo line >> $UNBAN_IP_LIST 
 		done < $BANNED_IP_LIST
 	else
@@ -144,7 +144,7 @@ if [ $KILL -eq 1 ]; then
 			$APF -d $CURR_LINE_IP
 		# add the line to use shorewall to drop the connections 
 		elif [ $APF_BAN -eq 2 ]; then 
-			$SHOREWALL drop $CURR_LINE_IP
+			$SHOR drop $CURR_LINE_IP
 		else
 			$IPT -I INPUT -s $CURR_LINE_IP -j DROP
 		fi
