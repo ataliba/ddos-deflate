@@ -1,6 +1,6 @@
 TODO 
 
-- Add the integration with RouterOS ( Mikrotik Devices ) 
+- Add the integration with RouterOS ( Mikrotik Devices ) to create firewall rules
 - change the language of this program to Python ( New Port with new name ) 
 - Bug fixes
 - Cosmetic changes 
