@@ -1,6 +1,6 @@
 1. Download the (D)DoS Deflate installer:
 
-wget https://github.com/jfernandez/ddos-deflate/raw/master/install.sh
+wget https://github.com/ataliba/ddos-deflate/raw/master/install.sh
 
 2. Give execute permission to the script:
 
