@@ -53,7 +53,7 @@ unbanip()
 	elif [ $APF_BAN -eq 2 ]; then
 		while read line; do 
 			echo "$SHOR allow $line" >> $UNBAN_SCRIPT 
-			echo line >> $UNBAN_IP_LIST 
+			echo $line >> $UNBAN_IP_LIST 
 		done < $BANNED_IP_LIST
 	else
 		while read line; do
